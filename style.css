@@ -31,6 +31,7 @@ label {
   margin-left: 1rem;
 }
 
-.isChecked {
+input:checked + label {
   text-decoration: line-through;
+  color: #C2CFD6;
 }
